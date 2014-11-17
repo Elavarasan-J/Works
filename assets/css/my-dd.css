@@ -1,0 +1,75 @@
+.my-dd-width
+{
+    width: 200px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.my-dropdown
+{
+    position: relative;
+    list-style: none;
+    display: block;
+    background:  #719E34;
+    border: 1px solid #ddd;
+    padding-left: 0px;
+    margin: 0px;
+    border-radius: 2px;
+    border: none;
+}
+.my-dropdown .fa-caret-down
+{
+    float: right;
+    margin-top: 4px;
+}
+.my-dropdown li a
+{
+    color: white;
+    padding: 6px 20px;
+    display: block;
+    outline: none;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 22px;
+}
+ .my-dropdown li a:hover
+{
+    text-decoration: none;
+    background: #84B83C;
+    border-radius: 2px;
+}
+.my-dd-width.my-dd-con
+{
+    width: inherit;
+    position: absolute;
+    padding-left: 0px;
+    opacity: 1;
+    background:  #719E34;
+    top: 35px;      
+    left: 0px; 
+    border-radius: 0px 0px 2px 2px;
+    display: none;
+}
+.my-dd
+{
+    padding-left: 0px;
+    margin: 0px;
+    list-style: none;
+    display: none;
+}
+.my-dd-con li:first-child
+{
+    border-top: 1px solid rgba(255,255,255,0.2);
+}
+.my-dd-con li a
+{
+    display: block;
+    padding: 6px 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+    outline: none;
+}
+ .my-dd li a:hover
+{
+    text-decoration: none;
+    background: #84B83C;
+}   

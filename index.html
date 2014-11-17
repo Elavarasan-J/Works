@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Websitexever</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/normalize.css"/>
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="assets/css/selectric.css"/>
+        <link rel="stylesheet" href="assets/css/custom-select.css"/>
+        <link rel="stylesheet" href="assets/css/mobile-menu.css"/>
+        <link rel="stylesheet" href="assets/css/my-dd.css"/>
+        <script src="assets/js/modernizr-2.6.2.min.js"></script>
+        <style>
+            .wrapper
+            {
+                margin-left: 100px;
+                height: 1000px;
+            }
+            h1.head
+            {
+                text-align: center;
+                color: green;
+                font-size: 20px;
+                line-height: 30px;
+                font-family: verdana;
+            }
+            .sub-head
+            {
+                font-family: verdana;
+                font-size: 18px;
+                line-height: 27px;
+                color:  #719E34;
+                 
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrapper">
+        <!-- custom selectbox -->
+        <h1 class="head">My custom plugin codes</h1>
+            
+        <h3 class="sub-head">Custom SelectBox:</h3>
+        <div class="sel-wrap">
+            <select>
+                <option>hai</option>
+                <option>hello</option>
+                <option>everbody</option>
+            </select>
+        </div>
+        <!--custom selectbox finished -->
+        
+        
+        <!--mobile view menu  -->
+            <h3 class="sub-head">Mobile View Menu:</h3>
+            <div class="header-left-menu" id="menu-item">
+                <ul class="left-menu-items">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Template</a></li>
+                    <li><a href="#">App</a></li>
+                    <li><a href="#">Guides</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+        <!--mobile view menu finished -->
+            
+                
+        <!--my dropdown -->
+        <h3 class="sub-head">My dropdown box:</h3>       
+        <div class="my-dd-width">
+            <ul class="my-dropdown ">
+                <li><a class="my-dd-click" href="#my-dd">Dropdown<i class="fa fa-caret-down"></i></a>
+                    <ul class="my-dd-con my-dd" id="my-dd">
+                        <li><a href="#">Dropdown List1</a></li>
+                        <li><a href="#">Dropdown List2</a></li>
+                        <li><a href="#">Dropdown List3</a></li>
+                        <li><a href="#">Dropdown List4</a></li>
+                    </ul>
+                </li>
+            </ul>
+       
+        </div> 
+                
+        <!--my dropdown finished -->
+         
+        </div>
+        <script src="assets/js/jquery-1.10.2.min.js"></script>
+        <script src="assets/js/jquery.selectric.min.js"></script>
+        <script src="assets/js/my-dropdown.js"></script>
+        <!--selectbox jquery call-->
+        
+        <script>
+            $(function()
+              {
+	           $('select').selectric();
+              });
+        </script>
+        
+        <!--selecbox jquery call finished -->
+        
+    </body>
+</html>

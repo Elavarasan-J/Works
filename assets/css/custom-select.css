@@ -1,0 +1,57 @@
+.sel-wrap
+{
+    width: 250px;
+    display: block;
+    margin-bottom: 20px;
+}
+.sel-wrap .selectricWrapper
+{
+    width: inherit;
+}
+.selectric
+{
+    background: #e8e8e8;
+    border-radius: 3px;
+    box-shadow: 0 2px 0 #c8c8c8;
+    border:none;
+}
+.selectricItems li
+{
+    border: none;
+    background: #e8e8e8;
+    font-size: 13px;
+    padding: 5px 10px;
+}
+.selectricItems
+{
+    background: #e8e8e8;
+    border: none;
+    border-radius: 2px;
+    z-index: 1000;
+}
+.selectricItems li:hover
+{
+    background: #f3f3f3;
+}
+.selectricItems li.selected
+{
+   background: #f3f3f3 !important; 
+   border-left: 4px solid #444 !important;
+    color: black;
+    font-size: 13px;
+    padding: 5px 7px;
+    font-weight: bold;
+}
+.selectric .label
+{
+    color: #444;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 6px 10px;
+    background-color: #e8e8e8;
+}
+.selectric .button
+{
+     background-color: #e8e8e8;
+     padding: 0px;
+}
